@@ -1,0 +1,12 @@
+export const BACKEND_URL = 'http://api.abelriosgonzalez.com:8000';
+export const menuIcon = 'ri-menu-line';
+export const logoutIcon = 'ri-logout-box-r-line';
+export const fileIcon = 'ri-file-fill';
+export const chatIcon = 'ri-wechat-fill';
+export const rightArrowIcon = 'ri-arrow-right-line';
+export const leftArrowIcon = 'ri-arrow-left-line';
+export const checkIcon = 'ri-check-line';
+export const defaultTaskIcon = 'https://api.arasaac.org/api/pictograms/22147';
+export const goBackIcon = 'ri-arrow-go-back-line';
+export const forbiddenIcon = 'ri-forbid-line';
+export const warningIcon = 'ri-error-warning-line';

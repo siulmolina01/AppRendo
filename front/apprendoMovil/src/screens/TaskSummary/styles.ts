@@ -1,0 +1,77 @@
+import {StyleSheet} from 'react-native';
+import {bg, green, grey, red, white} from '../../common/colors';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: bg,
+    justifyContent: 'center',
+  },
+  mainContent: {
+    marginHorizontal: 25,
+    marginVertical: 45,
+    backgroundColor: white,
+    borderRadius: 12,
+    height: '90%',
+    padding: 20,
+  },
+  title: {
+    fontFamily: 'Inter',
+    fontWeight: '700',
+    fontSize: 24,
+    lineHeight: 24,
+    color: '#000000',
+    textAlign: 'center',
+    marginTop: 20,
+  },
+  icon: {
+    width: 200,
+    height: 200,
+    alignSelf: 'center',
+    marginTop: 40,
+  },
+  done: {
+    textAlign: 'center',
+    fontFamily: 'Inter',
+    fontWeight: '500',
+    fontSize: 20,
+    lineHeight: 24,
+    color: '#000000',
+    marginTop: 35,
+  },
+  check: {
+    width: 50,
+    height: 50,
+    backgroundColor: 'transparent',
+    borderRadius: 8,
+    borderWidth: 2,
+    borderColor: grey,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    marginTop: 35,
+  },
+  checkDone: {
+    width: 50,
+    height: 50,
+    backgroundColor: green,
+    borderRadius: 8,
+    borderWidth: 2,
+    borderColor: green,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    textAlign: 'center',
+    marginTop: 35,
+  },
+  errorContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  errorText: {
+    fontSize: 30,
+    color: red,
+    textAlign: 'center',
+  },
+});
