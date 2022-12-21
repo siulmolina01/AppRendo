@@ -1,6 +1,9 @@
 # AppRendo
 Aplicación-servicio transversal para desarrollo de software accesible
 
+Esta aplicación todavía se encuentra en desarrollo, será terminada para fin de año.
+Hecha por el grupo de desarrollo ParadigmaVisual 2
+
 #### ¿Por qué este diseño?
 
 Elegimos este diseño debido a que se asemeja a lo que hemos estado trabajando en nuestras prácticas de empresa. Preferimos este diseño frente a otro que utilizase dos repositorios distintos para el backend y el frontend debido a su simplicidad y facilidad para configurarlo. Lo consideramos adecuado ya que no es un proyecto de gran envergadura.
