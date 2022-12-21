@@ -1,0 +1,35 @@
+.assignTaskButton{
+    width: 100%;
+
+    background: #F6D579;
+    border-radius: 12px;
+    border-color: transparent;
+}
+
+.userlIcon-div{
+    height: 50%;
+}
+
+.userlIcon{
+    height: auto;
+    padding: 15% 45% 0% 45%;
+}
+
+.assignTaskText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    letter-spacing: -0.015em;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on, 'case' on, 'cpsp' on;
+
+    /* Neutral/900 */
+
+    color: #07090D;
+
+    margin-top: 10%;
+    padding-bottom: 15%;
+}

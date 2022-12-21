@@ -1,0 +1,22 @@
+
+
+.genericText{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 133% */
+    
+    letter-spacing: -0.015em;
+    font-feature-settings: 'pnum' on, 'lnum' on, 'ss03' on, 'cv03' on, 'cv04' on, 'cv06' on, 'cv09' on, 'case' on, 'cpsp' on;
+
+    /* Neutral/900 */
+
+    color: #07090D;
+    margin-top: 20px;
+
+}
+
+
+
