@@ -1,0 +1,119 @@
+#root .title {
+  font-family: 'Open Sans';
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+}
+
+::placeholder {
+  color: #b6b9ce !important;
+}
+
+#root .font {
+  font-family: 'Inter';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+#root .borders {
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #a0a4a8;
+  border-style: solid;
+}
+
+#root .borders:focus {
+  box-shadow: 0 0 0 0.25rem rgb(55 210 187 / 25%);
+}
+
+#root .borders-left {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-width: 1px;
+  border-color: #a0a4a8;
+  border-style: solid;
+}
+
+#root .borders-right {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-width: 1px;
+  border-color: #a0a4a8;
+  border-style: solid;
+}
+
+#root .borders-left:focus {
+  box-shadow: 0 0 0 0.25rem rgb(55 210 187 / 25%);
+}
+#root .borders-right:focus {
+  box-shadow: 0 0 0 0.25rem rgb(55 210 187 / 25%);
+}
+
+#root .background-white {
+  background-color: white;
+}
+
+#root .no-border-right {
+  border-right: none;
+  border-color: #a0a4a8;
+}
+
+#root .no-border-left {
+  border-left: none;
+  border-color: #a0a4a8;
+}
+
+.datepicker {
+  width: 100%;
+}
+
+.datepicker:focus {
+  box-shadow: 0 0 0 0.25rem rgb(55 210 187 / 25%);
+  border: default;
+}
+
+.datepicker-container {
+  flex-grow: 1;
+}
+
+.warning{
+  display: flex;
+  align-items: center;
+  color: #E88673;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#root .no-wrap{
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 576px) {
+  .margin-bottom-device {
+    margin-bottom: 1.5rem !important;
+  }
+}
+
+#root .datepicker:focus-visible {
+  outline: none;
+}
+
+#separator {
+  display: flex;
+  color: #b6b9ce;
+  justify-content: center;
+}
+
+#root .borders-no-round:active {
+  box-shadow: 0 0 0 0.25rem rgb(55 210 187 / 25%) !important;
+}
+
+#root .borders-no-round:focus {
+  box-shadow: 0 0 0 0.25rem rgb(55 210 187 / 25%) !important;
+}

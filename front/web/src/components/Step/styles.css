@@ -1,0 +1,134 @@
+.pasoCompleto{
+    width: 100%;
+}
+
+.instruccion{
+    /* Input */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 14px;
+    gap: 8px;
+
+    width: 392px;
+    height: 44px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Gray/300 */
+
+    border: 1px solid #D0D5DD;
+    /* Shadow/xs */
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.instruccion > placeholder{
+    /* Text */
+
+    width: 340px;
+    height: 24px;
+
+    /* Text md/Regular */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Placeholder */
+
+    color: #B6B9CE;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+
+/* IMAGENBOTON -> IMAGENES INSTRUCCION - BOTON SUBIR IMAGEN */
+
+.imagen{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagenesInstruccion > form.control{
+    /* Input */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 42px 10px 14px;
+    gap: 8px;
+
+    width: 268px;
+    height: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Gray/300 */
+
+    border: 1px solid #D0D5DD;
+    /* Shadow/xs */
+
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.imagenesInstruccion > placeholder{
+    /* Text */
+
+    width: 175px;
+    height: 24px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    /* Placeholder */
+
+    color: #B6B9CE;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
